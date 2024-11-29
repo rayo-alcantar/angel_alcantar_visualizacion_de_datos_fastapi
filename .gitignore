@@ -1,0 +1,51 @@
+﻿# Entorno virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Archivos de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.par
+
+# Configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y debugging
+*.log
+*.sqlite3
+*.mypy_cache
+*.pytest_cache
+
+# Editor de código
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Configuración de Docker
+*.env
+docker-compose.override.yml
+.dockerignore
+
+# Archivos de test
+.tox/
+.coverage
+*.cover
+*.testsettings.json
+
+# Archivos de despliegue y distribución
+*.lock
+*.htmlcov/
